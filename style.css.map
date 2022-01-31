@@ -1,12 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,OAAO,CAAC,uGAAI;AAEZ,8BAA8B;AEF9B,oBAAoB;AAEpB,AAAA,MAAM,EAAE,MAAM,AAAA,MAAM,CAAA;EAChB,OAAO,EAAE,eAAe;EACxB,UAAU,EAAE,eAAe;CAC9B;;ACLD,wBAAwB;AACxB,AAAA,WAAW,CAAA;EACP,WAAW,EFFD,gBAAgB,EAAG,OAAO;CEGvC;;AAED,AAAA,UAAU,CAAA;EACN,WAAW,EFLC,SAAS,EAAG,OAAO;CEMlC;;AAED,AAAA,WAAW,CAAA;EACP,WAAW,EFRD,OAAO,EAAG,OAAO;CES9B;;AAED,AAAA,aAAa,CAAA;EACT,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,aAAa,CAAA;EACT,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,aAAa,CAAA;EACT,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,aAAa,CAAA;EACT,SAAS,EAAE,IAAI;CAClB",
-    "sources": [
-        "style.scss",
-        "include/variables.scss",
-        "include/global.scss",
-        "include/typography.scss"
-    ],
-    "names": [],
-    "file": "style.css"
-}
+{"version":3,"sourceRoot":"","sources":["sass/style.scss","sass/include/global.scss","sass/include/typography.scss","sass/include/variables.scss","sass/include/color.scss"],"names":[],"mappings":"AAAQ;AAER;ACFA;AAEA;EACI;EACA;;;ACJJ;AACA;EACI,aCFU;;;ADKd;EACI,aCLY;;;ADQhB;EACI,aCRU;;;ADWd;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AE1BJ;AACA;EACI,ODCY;;;ACEhB;EACI,YDHY;;;ACMhB;EACI,ODNW;;;ACSf;EACI,YDVW;;;ACaf;EACI,ODbW;;;ACgBf;EACI,YDlBW","file":"style.css"}
