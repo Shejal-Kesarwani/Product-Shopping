@@ -1,27 +1,32 @@
 <?php
 
+// Server name must be localhost
+$servername = "localhost";
 
-class DBController
-{
-  //Database Connection Properties
-  protected $host = 'localhost';
-  protected $user = 'root';
-  protected $password = '';
-  protected $database ="shopping";
+// In my case, user name will be root
+$username = "root";
 
-  //connection property
-  public $con = null;
+// Password is empty
+$password = "";
 
-  //call constructor
-  public function__construct()
-  {
-    $this->con = mysqli_connect($this->host, $this->user, $this->password, $this->database);
-    if($this->con->connect_error){
-      echo "Fail".$this->con->connect_error;
-    }
-    echo 'connection successful...!';
-  }
+// Creating a connection
+$conn = new mysqli($servername,
+			$username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+	die("Connection failure: "
+		. $conn->connect_error);
 }
 
-//DBController object
-$db = new DBController();
+// Creating a database named geekdata
+$sql = "CREATE DATABASE shopee";
+if ($conn->query($sql) === TRUE) {
+	echo "Connection Successful";
+} else {
+	echo "Error: " . $conn->error;
+}
+
+// Closing connection
+$conn->close();
+?>
